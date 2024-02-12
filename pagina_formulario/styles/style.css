@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 4vh;
+}
+
+.titulo_formulario_de_envio{
+  text-align: left;
+  margin-left: 35vh;
+  font-size: 3vh;
+}
+
+.titulo_lista_trabajadores{
+  text-align: left;
+}
+
+form {
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20vh;
+  margin: auto;
+}
+
+tr,
+td {
+  padding: 0.5vw;
+ 
+}
+
+.sitio_escritura {
+  border-radius: 10px;
+  background-color: #ada7a7;
+  height: 5vh;
+  width: 40vh;
+  border: 3px solid #000000;
+}
+
+.sitio_escritura_busqueda{
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 60vh;
+  height: 5vh;
+  text-align: center;
+}
+
+.sitio_escritura_nombre{
+  text-align: center;
+  
+}
+
+.titulo_busqueda{
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+label {
+  display: block;
+}
+
+.tabla1 {
+  margin-left: 34vh;
+  margin-right: 33.5vh;
+  font-weight: bold;
+  text-align: left;
+  height: 35vh;
+}
+
+.tabla2 {
+  border: 6px solid #000000;
+  border-radius: 30px;
+  margin-left: 33.5vh;
+  margin-right: 33.5vh;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tabla_de_resultados{
+  width: 150vh;
+}
+
+#boton_lupa{
+  background-color: #90d118;
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 5vh;
+  width: 5vh;
+}
+
+.boton {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: #5e880f;
+  border-radius: 100px;
+  height: 5vh;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30vh;
+}
+
+.boton_busqueda {
+  background-color: #90d118;
+  width: 60vh;
+  height: 5vh;
+  border: 2px solid #000000;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.Encabezado_busqueda{
+  font-size:xx-large;
+  color: #423f3f;
+  text-align: center;
+}
+
+
+/*Efectos y animaciones de las tablas */
+
+.boton:hover{
+  background-color: #ff4800;
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  color: #ffffff;
+}
+
+.boton_busqueda:hover{
+  background-color: #f79a0e;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
+
+.sitio_escritura:hover{
+  background-color: #ffffff;
+  transition: all 0.6s linear;
+}
