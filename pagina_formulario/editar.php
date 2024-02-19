@@ -123,23 +123,23 @@ try {
                         <div class="row">
                             <div class="col-md-5">
                                 <label for="nombre" class="form-label">Nombre:</label>
-                                <input type="text" id="nombre" class="form-control text-center border-dark" name="nombre" value="<?php echo $trabajador['Nombre']; ?>">
+                                <input type="text" id="nombre" class="form-control text-center border-dark bg-secondary text-white" name="nombre" value="<?php echo $trabajador['Nombre']; ?>">
 
                             </div>
                             <div class="col-md-2">
                                 <label for="cedula" class="form-label">Cédula:</label>
-                                <input type="text" id="cedula" class="form-control text-center border-dark" name="cedula" value="<?php echo $trabajador['Cedula']; ?>">
+                                <input type="text" id="cedula" class="form-control text-center border-dark bg-secondary text-white" name="cedula" value="<?php echo $trabajador['Cedula']; ?>">
                             </div>
 
                             <div class="col-md-3">
                                 <label for="cuenta" class="form-label">Cuenta:</label>
-                                <input type="text" id="cuenta" class="form-control text-center border-dark" name="cuenta" value="<?php echo $trabajador['Cuenta']; ?>">
+                                <input type="text" id="cuenta" class="form-control text-center border-dark bg-secondary text-white" name="cuenta" value="<?php echo $trabajador['Cuenta']; ?>">
 
                             </div>
 
                             <div class="col-md-2">
                                 <label for="ubicacion" class="form-label">Ubicación:</label>
-                                <select id="ubicacion" name="ubicacion" class="form-select text-center border-dark">
+                                <select id="ubicacion" name="ubicacion" class="form-select text-center border-dark bg-secondary text-white">
                                     <option value=""></option>
                                     <option value="Bogotá" <?php if ($trabajador['Ubicacion'] == 'Bogotá') echo 'selected'; ?>>Bogotá</option>
                                     <option value="Cartagena" <?php if ($trabajador['Ubicacion'] == 'Cartagena') echo 'selected'; ?>>Cartagena</option>
@@ -157,7 +157,7 @@ try {
 
                             <div class="col-md-2">
                                 <label for="area" class="form-label">Área:</label>
-                                <select id="area" name="area" class="form-select text-center border-dark">
+                                <select id="area" name="area" class="form-select text-center border-dark bg-secondary text-white">
                                     <option value=""></option>
                                     <option value="Tecnica" <?php if ($trabajador['Area'] == 'Tecnica') echo 'selected'; ?>>Tecnica</option>
                                     <option value="Contabilidad" <?php if ($trabajador['Area'] == 'Contabilidad') echo 'selected'; ?>>Contabilidad</option>
@@ -170,7 +170,7 @@ try {
 
                             <div class="col-md-6">
                                 <label for="cargo" class="form-label">Cargo:</label>
-                                <select id="cargo" name="cargo" class="form-select text-center border-dark">
+                                <select id="cargo" name="cargo" class="form-select text-center border-dark bg-secondary text-white">
                                     <option value=""></option>
                                     <option value="Gerente" <?php if ($trabajador['Cargo'] == 'Gerente') echo 'selected'; ?>>Gerente</option>
                                     <option value="Profesional Forestal" <?php if ($trabajador['Cargo'] == 'Profesional Forestal') echo 'selected'; ?>>Profesional Forestal</option>
@@ -225,7 +225,7 @@ try {
 
                             <div class="col-md-2">
                                 <label for="region" class="form-label">Región:</label>
-                                <select id="region" name="region" class="form-select text-center border-dark">
+                                <select id="region" name="region" class="form-select text-center border-dark bg-secondary text-white">
                                     <option value=""></option>
                                     <option value="Centro" <?php if ($trabajador['Region'] == 'Centro') echo 'selected'; ?>>Centro</option>
                                     <option value="Norte" <?php if ($trabajador['Region'] == 'Norte') echo 'selected'; ?>>Norte</option>
@@ -235,7 +235,7 @@ try {
 
                             <div class="col-md-2">
                                 <label for="oficina" class="form-label">Oficina:</label>
-                                <select id="oficina" name="oficina" class="form-select text-center border-dark">
+                                <select id="oficina" name="oficina" class="form-select text-center border-dark bg-secondary text-white">
                                     <option value=""></option>
                                     <option value="N_Rio" <?php if ($trabajador['Oficina'] == 'N_Rio') echo 'selected'; ?>>N_Rio</option>
                                     <option value="S_Nei" <?php if ($trabajador['Oficina'] == 'S_Nei') echo 'selected'; ?>>S_Nei</option>
@@ -253,12 +253,12 @@ try {
 
                             <div class="col-md-4">
                                 <label for="codigo" class="form-label">Codigo:</label>
-                                <input type="text" id="codigo" class="form-control text-center border-dark" name="codigo" value="<?php echo $trabajador['Codigo']; ?>">
+                                <input type="text" id="codigo" class="form-control text-center border-dark bg-secondary text-white" name="codigo" value="<?php echo $trabajador['Codigo']; ?>">
                             </div>
 
                             <div class="col-md-2">
                                 <label for="ram" class="form-label">RAM:</label>
-                                <select id="ram" name="ram" class="form-select text-center border-dark" required>
+                                <select id="ram" name="ram" class="form-select text-center border-dark bg-secondary text-white" required>
                                     <option value="<?php echo $trabajador['Ram']; ?>"><?php echo $trabajador['Ram']; ?></option>
                                     <option value="8Gb">8 Gb</option>
                                     <option value="12Gb">12 Gb</option>
@@ -269,7 +269,7 @@ try {
 
                             <div class="col-md-2">
                                 <label for="disco_duro" class="form-label">Disco Duro:</label>
-                                <select id="disco_duro" name="disco_duro" class="form-select text-center border-dark" required>
+                                <select id="disco_duro" name="disco_duro" class="form-select text-center border-dark bg-secondary text-white" required>
                                     <option value="<?php echo $trabajador['Disco duro']; ?>"><?php echo $trabajador['Disco duro']; ?></option>
                                     <option value="128Gb">128 Gb</option>
                                     <option value="250Gb">250 Gb</option>
@@ -282,7 +282,7 @@ try {
 
                             <div class="col-md-4">
                                 <label for="tipo_sistema" class="form-label">Tipo de Sistema:</label>
-                                <select id="tipo_sistema" name="tipo_sistema" class="form-select text-center border-dark" required>
+                                <select id="tipo_sistema" name="tipo_sistema" class="form-select text-center border-dark bg-secondary text-white" required>
                                     <option value="<?php echo $trabajador['Tipo de sistema']; ?>"><?php echo $trabajador['Tipo de sistema']; ?></option>
                                     <option value="Windows10 home">Windows 10 home</option>
                                     <option value="Windows10 home single">Windows 10 home single</option>
@@ -302,17 +302,17 @@ try {
                             <h2>Editar historial:</h2>
                             <div class="col-md-12">
                                 <label for="historial_asignacion" class="form-label">Historial de Asignación:</label>
-                                <input type="text" id="historial_asignacion" class="form-control text-center border-dark" name="historial_asignacion" value="<?php echo $trabajador['Historial asignacion']; ?>">
+                                <input type="text" id="historial_asignacion" class="form-control text-center border-dark bg-secondary text-white" name="historial_asignacion" value="<?php echo $trabajador['Historial asignacion']; ?>">
                             </div>
 
                             <div class="col-md-12">
                                 <label for="procesos_ejecutar" class="form-label">Procesos a Ejecutar:</label>
-                                <input type="text" id="procesos_ejecutar" class="form-control text-center border-dark" name="procesos_ejecutar" value="<?php echo $trabajador['Procesos a ejecutar']; ?>">
+                                <input type="text" id="procesos_ejecutar" class="form-control text-center border-dark bg-secondary text-white" name="procesos_ejecutar" value="<?php echo $trabajador['Procesos a ejecutar']; ?>">
                             </div>
 
                             <div class="col-md-12">
                                 <label for="observaciones" class="form-label">Observaciones:</label>
-                                <textarea name="observaciones" id="observaciones" class="form-control border-dark" rows="4"><?php echo $trabajador['Observaciones']; ?></textarea>
+                                <textarea name="observaciones" id="observaciones" class="form-control border-dark bg-secondary text-white" rows="4"><?php echo $trabajador['Observaciones']; ?></textarea>
                             </div>
 
 

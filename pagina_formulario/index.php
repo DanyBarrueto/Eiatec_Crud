@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/control_slider.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2460b47c04.js" crossorigin="anonymous"></script>
 
@@ -31,15 +32,15 @@
                 <div class="row">
                     <div class="col-md-2">
                         <label for="cedula" class="form-label">Cédula:</label>
-                        <input type="text" id="cedula" name="cedula" class="form-control border-dark" required />
+                        <input type="text" id="cedula" name="cedula" class="form-control border-dark bg-secondary text-white text-center" required />
                     </div>
                     <div class="col-md-6">
                         <label for="nombre" class="form-label">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control border-dark" />
+                        <input type="text" id="nombre" name="nombre" class="form-control border-dark bg-secondary text-white text-center" />
                     </div>
                     <div class="col-md-2">
                         <label for="oficina" class="form-label">Oficina:</label>
-                        <select id="oficina" name="oficina" class="form-select border-dark" required>
+                        <select id="oficina" name="oficina" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="N_Rio">N_Rio</option>
                             <option value="S_Nei">S_Nei</option>
@@ -53,7 +54,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="area" class="form-label">Area:</label>
-                        <select id="area" name="area" class="form-select border-dark" required>
+                        <select id="area" name="area" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Tecnica">Tecnica</option>
                             <option value="Contabilidad">Contabilidad</option>
@@ -65,7 +66,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="cargo" class="form-label">Cargo:</label>
-                        <select id="cargo" name="cargo" class="form-select border-dark" required>
+                        <select id="cargo" name="cargo" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Gerente">Gerente</option>
                             <option value="Profesional Forestal">Profesional Forestal</option>
@@ -122,11 +123,11 @@
 
                     <div class="col-md-4">
                         <label for="cuenta" class="form-label">Cuenta:</label>
-                        <input type="text" id="cuenta" name="cuenta" class="form-control border-dark" required />
+                        <input type="text" id="cuenta" name="cuenta" class="form-control border-dark bg-secondary text-white text-center" required />
                     </div>
                     <div class="col-md-2">
                         <label for="region" class="form-label">Región:</label>
-                        <select id="region" name="region" class="form-select border-dark" required>
+                        <select id="region" name="region" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Centro">Centro</option>
                             <option value="Norte">Norte</option>
@@ -135,7 +136,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="ubicacion" class="form-label">Ubicación:</label>
-                        <select id="ubicacion" name="ubicacion" class="form-select border-dark" required>
+                        <select id="ubicacion" name="ubicacion" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Bogotá">Bogotá</option>
                             <option value="Cartagena">Cartagena</option>
@@ -160,12 +161,12 @@
 
                     <div class="col-md-2">
                         <label for="codigo" class="form-label">Codigo:</label>
-                        <input type="text" id="codigo" name="codigo" class="form-control border-dark" required />
+                        <input type="text" id="codigo" name="codigo" class="form-control border-dark bg-secondary text-white text-center" required />
                     </div>
 
                     <div class="col-md-2">
                         <label for="tipo_computador" class="form-label">Tipo de computador:</label>
-                        <select id="tipo_computador" name="tipo_computador" class="form-select text-center border-dark" required>
+                        <select id="tipo_computador" name="tipo_computador" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Portatil">Portatil</option>
                             <option value="Mesa">Mesa</option>
@@ -175,7 +176,7 @@
 
                     <div class="col-md-2">
                         <label for="marca" class="form-label">Marca:</label>
-                        <select id="marca" name="marca" class="form-select text-center border-dark" required>
+                        <select id="marca" name="marca" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Asus">Asus</option>
                             <option value="Lenovo">Lenovo</option>
@@ -193,22 +194,22 @@
 
                     <div class="col-md-6">
                         <label for="modelo" class="form-label">Modelo:</label>
-                        <input type="text" id="modelo" name="modelo" class="form-control text-center border-dark" required />
+                        <input type="text" id="modelo" name="modelo" class="form-control text-center border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-2">
                         <label for="numero_serie" class="form-label">Numero de serie:</label>
-                        <input type="text" id="numero_serie" name="numero_serie" class="form-control text-center border-dark" required />
+                        <input type="text" id="numero_serie" name="numero_serie" class="form-control text-center border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-4">
                         <label for="id_producto" class="form-label">Id producto:</label>
-                        <input type="text" id="id_producto" name="id_producto" class="form-control text-center border-dark" required />
+                        <input type="text" id="id_producto" name="id_producto" class="form-control text-center border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-6">
                         <label for="tipo_sistema" class="form-label">Tipo de sistema:</label>
-                        <select id="tipo_sistema" name="tipo_sistema" class="form-select text-center border-dark" required>
+                        <select id="tipo_sistema" name="tipo_sistema" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="Windows10 home">Windows 10 home</option>
                             <option value="Windows10 home single">Windows 10 home single</option>
@@ -223,12 +224,12 @@
 
                     <div class="col-md-9">
                         <label for="procesador" class="form-label">Procesador:</label>
-                        <input type="text" id="procesador" name="procesador" class="form-control text-center border-dark" required />
+                        <input type="text" id="procesador" name="procesador" class="form-control text-center border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-1">
                         <label for="ram" class="form-label">Ram:</label>
-                        <select id="ram" name="ram" class="form-select border-dark" required>
+                        <select id="ram" name="ram" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="8Gb">8Gb</option>
                             <option value="12Gb">12Gb</option>
@@ -239,7 +240,7 @@
 
                     <div class="col-md-2">
                         <label for="disco_duro" class="form-label">Disco duro:</label>
-                        <select id="disco_duro" name="disco_duro" class="form-select text-center border-dark " required>
+                        <select id="disco_duro" name="disco_duro" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="128Gb">128 Gb</option>
                             <option value="250Gb">250 Gb</option>
@@ -252,14 +253,14 @@
 
                     <div class="col-md-5">
                         <label for="gpu" class="form-label">Gpu:</label>
-                        <input type="text" id="gpu" name="gpu" class="form-control text-center border-dark" required />
+                        <input type="text" id="gpu" name="gpu" class="form-control text-center border-dark bg-secondary text-white" required />
                     </div>
 
 
 
                     <div class="col-md-2">
                         <label for="display" class="form-label">Display:</label>
-                        <select id="display" name="display" class="form-select text-center border-dark" required>
+                        <select id="display" name="display" class="form-select border-dark bg-secondary text-white" required>
                             <option value=""></option>
                             <option value="16  FHD">16 FHD</option>
                             <option value="14  HD">14 HD</option>
@@ -286,17 +287,17 @@
 
                     <div class="col-md-12">
                         <label for="historial_asignacion" class="form-label">Historial asignacion:</label>
-                        <input type="text" id="historial_asignacion" name="historial_asignacion" class="form-control border-dark" required />
+                        <input type="text" id="historial_asignacion" name="historial_asignacion" class="form-control border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-12">
                         <label for="procesos_ejecutar" class="form-label">Procesos a ejecutar:</label>
-                        <input type="text" id="procesos_ejecutar" name="procesos_ejecutar" class="form-control border-dark" required />
+                        <input type="text" id="procesos_ejecutar" name="procesos_ejecutar" class="form-control border-dark bg-secondary text-white" required />
                     </div>
 
                     <div class="col-md-2">
-                        <label for="observaciones" class="form-label border-dark">Observaciones:</label>
-                        <textarea name="observaciones" id="" cols="174" rows="4"></textarea>
+                        <label for="observaciones" class="form-label">Observaciones:</label>
+                        <textarea name="observaciones" id="" cols="120" rows="4" class=" border-dark bg-secondary text-white"></textarea>
                     </div>
                     <br><br>
                 </div>
@@ -423,7 +424,7 @@
         <div class="container mt-4">
             <div class="row">
                 <div class="col-md-12">
-                    <table class="table table-dark">
+                    <table class=" table-responsive table table-dark ">
                         <thead class="table-light">
                             <tr>
                                 <th>#</th>
@@ -557,8 +558,10 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="mt-3 text-dark">Lista de trabajadores</h2>
+                <div class="table-responsive overflow-auto max-height">
+
                 <table class="table table-light">
-                    <thead class="table-dark">
+                    <thead class="table-dark table-responsive">
                         <tr>
                             <th>#</th>
                             <th>Nombre</th>
@@ -623,6 +626,7 @@
                         <?php endforeach; ?>
                     </tbody>
                 </table>
+                </div>
                 <?php if (empty($resultados)) : ?>
                     <p><?php echo $mensaje; ?></p>
                 <?php endif; ?>
